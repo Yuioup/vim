@@ -11,8 +11,13 @@ set laststatus=2
 set cursorline
 set autochdir
 
-"set noignorecase
-set ignorecase
+set noerrorbells 
+set novisualbell
+set t_vb=
+autocmd! GUIEnter * set vb t_vb=
+
+set noignorecase
+"set ignorecase
 set nomore
 set autowriteall
 
@@ -70,11 +75,11 @@ let g:ctrlp_extensions = ['buffertag']
 
 let g:acp_ignorecaseOption = 0
 
-colorscheme desert
+"colorscheme desert
 
 "syntax enable
-"set background=dark
-"colorscheme solarized
+set background=dark
+colorscheme solarized
 
 "Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
 " Disable AutoComplPop.
@@ -165,3 +170,8 @@ let g:neocomplcache_omni_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 " For perlomni.vim setting.
 " https://github.com/c9s/perlomni.vim
 let g:neocomplcache_omni_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
+
+
+let g:syntastic_mode_map = { "mode": "passive",
+                           \ "active_filetypes": ["ruby", "php"],
+                           \ "passive_filetypes": ["python"] }
