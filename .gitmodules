@@ -55,3 +55,9 @@
 [submodule "vimfiles/bundle/robotframework-vim"]
 	path = vimfiles/bundle/robotframework-vim
 	url = git://github.com/mfukar/robotframework-vim.git
+[submodule "vimfiles/bundle/confluencewiki.vim"]
+	path = vimfiles/bundle/confluencewiki.vim
+	url = https://github.com/vim-scripts/confluencewiki.vim
+[submodule "vimfiles/bundle/vim-razor"]
+	path = vimfiles/bundle/vim-razor
+	url = https://github.com/adamclerk/vim-razor

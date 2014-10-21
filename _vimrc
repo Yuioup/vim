@@ -21,7 +21,6 @@ set noignorecase
 set nomore
 set autowriteall
 
-set relativenumber
 set number
 
 filetype on
@@ -34,6 +33,7 @@ set shiftwidth=4
 set expandtab
 set softtabstop=4
 
+au BufNewFile,BufRead *.jira setlocal ft=confluencewiki
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
@@ -79,3 +79,7 @@ let g:acp_ignorecaseOption = 0
 
 set background=dark
 colorscheme solarized
+
+cd C:\Notes\
+
+au GUIEnter * simalt ~x
