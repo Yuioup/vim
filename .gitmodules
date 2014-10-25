@@ -49,9 +49,6 @@
 [submodule "vimfiles/bundle/vim-snippets"]
 	path = vimfiles/bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
-[submodule "vimfiles/bundle/vim-autocomplpop"]
-	path = vimfiles/bundle/vim-autocomplpop
-	url = https://github.com/othree/vim-autocomplpop
 [submodule "vimfiles/bundle/robotframework-vim"]
 	path = vimfiles/bundle/robotframework-vim
 	url = git://github.com/mfukar/robotframework-vim.git

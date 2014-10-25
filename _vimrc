@@ -40,8 +40,8 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set nowrap
 set guioptions+=b
 set guioptions-=T
-"set guifont=Consolas:h11:cANSI
-set guifont=Terminus:h11:cANSI
+set guifont=Consolas:h11:cANSI
+"set guifont=Terminus:h11:cANSI
 
 set backspace=indent,eol,start 
 
