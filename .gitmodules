@@ -61,3 +61,6 @@
 [submodule "vimfiles/bundle/vim-fugitive"]
 	path = vimfiles/bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "vimfiles/bundle/Omnisharp"]
+	path = vimfiles/bundle/Omnisharp
+	url = https://github.com/nosami/Omnisharp
