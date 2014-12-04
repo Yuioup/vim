@@ -64,3 +64,6 @@
 [submodule "vimfiles/bundle/omnisharp-vim"]
 	path = vimfiles/bundle/omnisharp-vim
 	url = https://github.com/OmniSharp/omnisharp-vim.git
+[submodule "vimfiles/bundle/vim-node"]
+	path = vimfiles/bundle/vim-node
+	url = https://github.com/moll/vim-node.git
