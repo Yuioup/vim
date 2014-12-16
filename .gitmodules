@@ -67,3 +67,6 @@
 [submodule "vimfiles/bundle/vim-node"]
 	path = vimfiles/bundle/vim-node
 	url = https://github.com/moll/vim-node.git
+[submodule "vimfiles/bundle/vim-dispatch"]
+	path = vimfiles/bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
