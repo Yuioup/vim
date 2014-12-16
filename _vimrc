@@ -86,6 +86,7 @@ cd C:\Notes\
 filetype plugin on
 
 "This is the default value, setting it isn't actually necessary
+let g:OmniSharp_port = 2001
 let g:OmniSharp_host = "http://localhost:2001"
 
 "Set the type lookup function to use the preview window instead of the status line
