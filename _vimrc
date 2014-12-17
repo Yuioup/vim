@@ -19,7 +19,7 @@ autocmd! GUIEnter * set vb t_vb=
 set noignorecase
 "set ignorecase
 set nomore
-set autowriteall
+"set autowriteall
 
 set number
 
