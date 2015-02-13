@@ -40,7 +40,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set nowrap
 set guioptions+=b
 set guioptions-=T
-set guifont=Consolas:h10:cANSI
+set guifont=Consolas:h11:cANSI
 "set guifont=Terminus:h11:cANSI
 
 set backspace=indent,eol,start 
@@ -70,6 +70,9 @@ let NERDTreeChDirMode=2
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlPBuffer'
+let g:ctrlp_max_files = 0
+let g:ctrlp_max_depth = 40
+"let g:ctrlp_working_path_mode = ""
 
 let g:ctrlp_extensions = ['buffertag']
 
@@ -79,6 +82,17 @@ let g:acp_ignorecaseOption = 0
 
 set background=dark
 colorscheme solarized
+
+source ~/.regexlist.vim
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 cd C:\Notes\
 
