@@ -55,9 +55,6 @@
 [submodule "vimfiles/bundle/confluencewiki.vim"]
 	path = vimfiles/bundle/confluencewiki.vim
 	url = https://github.com/vim-scripts/confluencewiki.vim
-[submodule "vimfiles/bundle/vim-razor"]
-	path = vimfiles/bundle/vim-razor
-	url = https://github.com/adamclerk/vim-razor
 [submodule "vimfiles/bundle/vim-fugitive"]
 	path = vimfiles/bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
