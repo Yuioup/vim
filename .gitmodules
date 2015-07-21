@@ -70,3 +70,6 @@
 [submodule "vimfiles/bundle/supertab"]
 	path = vimfiles/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "vimfiles/bundle/vim-csharp"]
+	path = vimfiles/bundle/vim-csharp
+	url = git://github.com/OrangeT/vim-csharp.git
