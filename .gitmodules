@@ -67,3 +67,6 @@
 [submodule "vimfiles/bundle/vim-dispatch"]
 	path = vimfiles/bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
+[submodule "vimfiles/bundle/supertab"]
+	path = vimfiles/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
