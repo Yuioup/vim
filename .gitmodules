@@ -67,6 +67,3 @@
 [submodule "vimfiles/bundle/vim-csharp"]
 	path = vimfiles/bundle/vim-csharp
 	url = git://github.com/OrangeT/vim-csharp.git
-[submodule "vimfiles/bundle/vim-dotoo"]
-	path = vimfiles/bundle/vim-dotoo
-	url = https://github.com/dhruvasagar/vim-dotoo.git
