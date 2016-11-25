@@ -10,18 +10,12 @@
 [submodule "vimfiles/bundle/nerdtree"]
 	path = vimfiles/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "vimfiles/bundle/vim-surround"]
-	path = vimfiles/bundle/vim-surround
-	url = https://github.com/tpope/vim-surround
 [submodule "vimfiles/bundle/syntastic"]
 	path = vimfiles/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 [submodule "vimfiles/bundle/tabular"]
 	path = vimfiles/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule "vimfiles/bundle/tagbar"]
-	path = vimfiles/bundle/tagbar
-	url = https://github.com/majutsushi/tagbar
 [submodule "vimfiles/bundle/textile.vim"]
 	path = vimfiles/bundle/textile.vim
 	url = https://github.com/timcharper/textile.vim
@@ -43,24 +37,9 @@
 [submodule "vimfiles/bundle/vim-repeat"]
 	path = vimfiles/bundle/vim-repeat
 	url = https://github.com/kana/vim-repeat
-[submodule "vimfiles/bundle/vim-snipmate"]
-	path = vimfiles/bundle/vim-snipmate
-	url = https://github.com/garbas/vim-snipmate.git
-[submodule "vimfiles/bundle/vim-snippets"]
-	path = vimfiles/bundle/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
-[submodule "vimfiles/bundle/robotframework-vim"]
-	path = vimfiles/bundle/robotframework-vim
-	url = git://github.com/mfukar/robotframework-vim.git
 [submodule "vimfiles/bundle/confluencewiki.vim"]
 	path = vimfiles/bundle/confluencewiki.vim
 	url = https://github.com/vim-scripts/confluencewiki.vim
-[submodule "vimfiles/bundle/vim-fugitive"]
-	path = vimfiles/bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
-[submodule "vimfiles/bundle/vim-node"]
-	path = vimfiles/bundle/vim-node
-	url = https://github.com/moll/vim-node.git
 [submodule "vimfiles/bundle/vim-dispatch"]
 	path = vimfiles/bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
