@@ -22,3 +22,6 @@
 [submodule "vimfiles/pack/my-plugins/start/ctrlp.vim"]
 	path = vimfiles/pack/my-plugins/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "vimfiles/pack/my-plugins/start/typescript-vim"]
+	path = vimfiles/pack/my-plugins/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
