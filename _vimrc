@@ -1,5 +1,3 @@
-call pathogen#infect()
-
 set nocompatible
 set nu
 set nowrap
