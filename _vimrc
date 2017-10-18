@@ -46,7 +46,8 @@ set backspace=indent,eol,start
 set tags=./tags,tags,../tags
 
 nnoremap <F10> :syntax on<CR>
-"nnoremap <F11> :TlistToggle<CR>
+nnoremap <F11> "=strftime("%H:%M")<CR>P
+inoremap <F11> <C-R>=strftime("%H:%M")<CR>
 nnoremap <F12> :NERDTreeToggle<CR>
 map <MiddleMouse> <Nop>
 imap <MiddleMouse> <Nop>
