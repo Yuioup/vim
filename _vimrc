@@ -6,13 +6,17 @@ set incsearch
 "set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 let g:airline_section_c = '%<%F%m %#__accent_red#%{airline#util#wrap(airline#parts#readonly(),0)}%#__restore__#'
 set laststatus=2
-set cursorline
+if has("gui_running")
+    set cursorline
+endif
 set autochdir
 
 set noerrorbells 
 set novisualbell
 set t_vb=
-autocmd! GUIEnter * set vb t_vb=
+if has("gui_running")
+    autocmd! GUIEnter * set vb t_vb=
+endif
 
 set noignorecase
 "set ignorecase
@@ -36,10 +40,13 @@ autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 set nowrap
-set guioptions+=b
-set guioptions-=T
-set guifont=Consolas:h11:cANSI
-"set guifont=Terminus:h11:cANSI
+
+if has("gui_running")
+    set guioptions+=b
+    set guioptions-=T
+    set guifont=Consolas:h11:cANSI
+    "set guifont=Terminus:h11:cANSI
+endif
 
 set backspace=indent,eol,start 
 
@@ -79,8 +86,10 @@ let g:acp_ignorecaseOption = 0
 
 "colorscheme desert
 
-set background=dark
-colorscheme solarized
+if has("gui_running")
+    set background=dark
+    colorscheme solarized
+endif
 
 source ~/_regexlist.vim
 
