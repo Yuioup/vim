@@ -17,6 +17,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'kana/vim-repeat'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-sensible'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
