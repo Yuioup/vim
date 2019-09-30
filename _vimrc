@@ -15,6 +15,8 @@ Plug 'godlygeek/tabular'
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'kana/vim-repeat'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'tpope/vim-commentary'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -116,4 +118,5 @@ source ~/.regexlist.vim
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%{gutentags#statusline()}
 set statusline+=%*
