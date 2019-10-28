@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
 Plug 'altercation/vim-colors-solarized'
 Plug 'godlygeek/tabular'
 Plug 'leafgarland/typescript-vim'
@@ -13,6 +14,7 @@ Plug 'kana/vim-repeat'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-surround'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
