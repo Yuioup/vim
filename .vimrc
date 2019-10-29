@@ -11,7 +11,6 @@ Plug 'godlygeek/tabular'
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'kana/vim-repeat'
-Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
@@ -116,5 +115,4 @@ source ~/.regexlist.vim
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%{gutentags#statusline()}
 set statusline+=%*
