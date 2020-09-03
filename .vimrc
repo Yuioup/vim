@@ -14,6 +14,7 @@ Plug 'kana/vim-repeat'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
+Plug 'vim-scripts/copypath.vim'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
